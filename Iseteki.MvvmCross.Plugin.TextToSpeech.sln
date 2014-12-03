@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iseteki.MvvmCross.Plugin.TextToSpeech", "Iseteki.MvvmCross.Plugin.TextToSpeech\Iseteki.MvvmCross.Plugin.TextToSpeech.csproj", "{28A8BD58-6559-434E-ABAA-D5361988EDF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iseteki.MvvmCross.Plugin.TextToSpeech.Droid", "Iseteki.MvvmCross.Plugin.TextToSpeech.Droid\Iseteki.MvvmCross.Plugin.TextToSpeech.Droid.csproj", "{349A9014-7ED7-473C-9B60-65A615121F65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iseteki.MvvmCross.Plugin.TextToSpeech.Touch", "Iseteki.MvvmCross.Plugin.TextToSpeech.Touch\Iseteki.MvvmCross.Plugin.TextToSpeech.Touch.csproj", "{BD5D124A-7C21-4C1F-B52C-E6F13DF93651}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28A8BD58-6559-434E-ABAA-D5361988EDF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A8BD58-6559-434E-ABAA-D5361988EDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A8BD58-6559-434E-ABAA-D5361988EDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A8BD58-6559-434E-ABAA-D5361988EDF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{349A9014-7ED7-473C-9B60-65A615121F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{349A9014-7ED7-473C-9B60-65A615121F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{349A9014-7ED7-473C-9B60-65A615121F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{349A9014-7ED7-473C-9B60-65A615121F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD5D124A-7C21-4C1F-B52C-E6F13DF93651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD5D124A-7C21-4C1F-B52C-E6F13DF93651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD5D124A-7C21-4C1F-B52C-E6F13DF93651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD5D124A-7C21-4C1F-B52C-E6F13DF93651}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Iseteki.MvvmCross.Plugin.TextToSpeech\Iseteki.MvvmCross.Plugin.TextToSpeech.csproj
+	EndGlobalSection
+EndGlobal

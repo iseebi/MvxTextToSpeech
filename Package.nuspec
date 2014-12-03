@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Iseteki.MvvmCross.Plugin.TextToSpeech</id>
+    <title>MvvmCross - Text To Speech</title>
+    <version>0.1.0</version>
+    <authors>Nobuhiro Ito</authors>
+    <owners>Nobuhiro Ito</owners>
+    <licenseUrl>https://github.com/iseebi/MvxTextToSpeech/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/iseebi/MvxTextToSpeech</projectUrl>
+    <!-- <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl> -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Text-to-Speech for MvvmCross</description>
+    <releaseNotes>0.1.0 - First Release</releaseNotes>
+    <copyright>Copyright (C) 2014 Nobuhiro Ito</copyright>
+    <tags>mvvmcross mvvm xamarin monoandroid monodroid monotouch</tags>
+    <dependencies>
+      <dependency id="MvvmCross.HotTuna.CrossCore" version="3.2.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Core -->
+    <file src="Iseteki.MvvmCross.Plugin.TextToSpeech/bin/Release/Iseteki.MvvmCross.Plugin.TextToSpeech.dll"
+        target="lib\portable-net45+wp8+win8+monoandroid+monotouch\Iseteki.MvvmCross.Plugin.TextToSpeech.dll" />
+  
+    <!-- Touch -->
+    <file src="Iseteki.MvvmCross.Plugin.TextToSpeech.Touch/bin/Release/Iseteki.MvvmCross.Plugin.TextToSpeech.dll"
+        target="lib\monotouch\Iseteki.MvvmCross.Plugin.TextToSpeech.dll" />
+    <file src="Iseteki.MvvmCross.Plugin.TextToSpeech.Touch/bin/Release/Iseteki.MvvmCross.Plugin.TextToSpeech.Touch.dll"
+        target="lib\monotouch\Iseteki.MvvmCross.Plugin.TextToSpeech.Touch.dll" />
+    <file src="Iseteki.MvvmCross.Plugin.TextToSpeech.Touch/bin/Release/TextToSpeechPluginBootstrap.cs.pp"
+        target="content\monotouch\Bootstrap\TextToSpeechPluginBootstrap.cs.pp" />
+  
+    <!-- Droid -->
+    <file src="Iseteki.MvvmCross.Plugin.TextToSpeech.Droid/bin/Release/Iseteki.MvvmCross.Plugin.TextToSpeech.dll"
+        target="lib\monoandroid\Iseteki.MvvmCross.Plugin.TextToSpeech.dll" />
+    <file src="Iseteki.MvvmCross.Plugin.TextToSpeech.Droid/bin/Release/Iseteki.MvvmCross.Plugin.TextToSpeech.Droid.dll"
+        target="lib\monoandroid\Iseteki.MvvmCross.Plugin.TextToSpeech.Droid.dll" />
+    <file src="Iseteki.MvvmCross.Plugin.TextToSpeech.Droid/bin/Release/TextToSpeechPluginBootstrap.cs.pp"
+        target="content\monoandroid\Bootstrap\TextToSpeechPluginBootstrap.cs.pp" />
+  </files>
+</package>
